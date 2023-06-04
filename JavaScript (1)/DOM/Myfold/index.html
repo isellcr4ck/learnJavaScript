@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Ресторан</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="nav">
+          <nav class="nav-bar">
+            <a href="#" data-button-id="1" class="nav-a">ГЛАВНАЯ</a>
+            <a href="#" data-button-id="2" class="nav-a">МЕНЮ</a>
+            <a href="#" data-button-id="3" class="nav-a">ДОСТАВКА</a>
+            <a href="#" data-button-id="4" class="nav-a">ОТЗЫВЫ</a>
+          </nav>
+          <h1 class="self-title">Главная страница ресторана</h1>
+          <div class="self-box">
+            <img src="img/h1.jpeg" alt="" class="self-img" />
+             <div class="self-box-param">
+              <h3 class="title-h3">Добро пожаловать в наш уютный уголок</h3>
+              <p class="self-par">
+                Большой выбор меню, бронь столиков, а так же доставка по всему городу
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="buttons-click">
+          <button class="btn-menu">Меню ресторана</button>
+          <button class="btn-deliv">Зона доставки</button>
+        </div>
+        <div class="call-back">
+          <form action="" class="form-comment">
+            <div class="field">
+              <label for="name">Введите имя:</label>
+              <input type="text" name="name" placeholder="ваше имя" />
+            </div>
+            <div class="field">
+              <label for="mail">Введите почту: </label>
+              <input type="email" name="mail" placeholder="e-mail адресс" />
+            </div>
+            <div class="field">
+              <label for="comment">Ваш отзыв:</label>
+              <textarea
+                name="comment"
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="тескт отзыва"
+              ></textarea>
+            </div>
+            <div class="btn-submit">
+              <button type="submit">Отправить</button>
+              <button type="reset">Очистить</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="body-box"></div>
+      <div class="footer">
+        <footer></footer>
+      </div>
+    </div>
+
+    <!-- <script src="index.js"></script> -->
+    <script src="../listeners.js"></script>
+  </body>
+</html>
